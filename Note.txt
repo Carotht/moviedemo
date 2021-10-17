@@ -1,0 +1,133 @@
+- npm install: tạo lại thư mục node_modules
+- npm start: khởi chạy project
+- npm install jquery popper.js bootstrap@4.5.2 --save
+
+
+- Baitap2Component
+    - HeaderComponent
+    - CarouselComponent
+    - WWD
+    - Contact
+    - ListCardComponent
+        - Card
+    - FooterComponent
+
+- Baitap3Component
+    - Header
+    - Carousel
+    - ListSmartphone
+        - Phone
+        - Phone
+        - Phone
+        - Phone
+
+===== Buổi 1 ======
+* Component:
+    - Stateful Component => class
+    - Stateless Component => function
+
+===== Buổi 2 ======
+* Rendering Elements: {}
+* Handling Events:  onclick
+* State: nếu như state thay đổi => component sẽ render lại
+* List keys: duyệt mảng
+
+===== Buổi 3 ======
+* communication
+    - Props: Truyền dữ liệu từ Component cha => Component con
+            + class: Nhận props thông qua con trỏ this => this.props
+            + function: Nhận props thông qua tham số của function(props)
+                        Không còn tồn tại từ khóa this
+            + children: Nhận tất cả từ Component cha.
+    - Lifting State Up: Truyền dữ liệu từ Component con => Component cha
+                        Component cha truyền vào component con 1 props 
+                        => props mang hàm (hàm nay giúp cho component cha nhận được data từ component con)
+* Shopping cart
+
+===== Buổi 4 ======
+* Shopping cart
+* Usermanagement
+
+===== Buổi 5 ======
+* Form
+* Lifecycle: componentWillReceiveProps
+
+===== Buổi 6 ======
+* Redux
+    Cài đặt redux: npm install redux --save
+    Cài đặt react-redux: npm install react-redux --save
+
+===== Buổi 7 ======
+* Redux
+    - Acion Creator
+* Form Validation
+
+===== Buổi 8 ======
+* Lifecycle: stateful component
+* Routing (basic)
+    - Homepage
+    - About
+    - ListMovie
+    npm install react-router-dom --save
+https://github.com/dpnguyen53/bc10reactrouting
+
+===== Buổi 9 ======
+ * Routing (refactor)
+ * HTTP & Axios
+    npm install axios --save  <=> fetch
+    - Lấy danh sách phim.
+* Loading
+
+===== Buổi 10 ======
+* Redux thunk <=> redux saga: function generator (function *, yield)
+* Get Params From URL: route, component sử dụng match
+* Detail Movie
+
+======== Buổi 11 ======
+* Routing (HomeTemplate & Admin Template)
+* HOC (Higher order component)
+    - Là 1 function => function này nó sẽ return về 1 Class Component (Function Component) khác
+* Render Props (Adv): Tái sử dụng
+* Routing (Adv)
+
+======== Buổi 12 ======
+* Hooks
+
+======== Buổi 13 ======
+* Auth
+* Guard Routing Admin
+
+======== Buổi 14 ======
+* Add user(Token)
+* Material UI
+* Styledd Component
+
+======== Buổi 15 ======
+* Refactor code call api
+    - Flow login Auth
+        + dispatch actAuthSuccess
+        + setHeader token
+        + timeout exp
+
+* Flow reload web (actTryLogin)
+        + timeout exp
+        + dispatch actAuthSuccess
+        + setHeader token 
+        
+* Logout
+    - remove accessToken
+    - redirect /auth
+    - clear reducer Auth
+
+======== Buổi 16 ======
+* alias
+* Lazy load page
+* Deploy app heroku
+* Build
+    - Hositing (Server)
+    - Domain
+
+* Java
+    build
+
+* Nextjs
